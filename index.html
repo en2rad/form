@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <p>
+            <label for="user_name">Имя</label>
+            <input id="user_name" type="text" placeholder="Имя">
+        </p>
+        <p>
+            <label for="user_tel">Телефон</label>
+            <input id="user_tel" type="tel" placeholder="Телефон">
+        </p>
+        <p></p>
+            <label for="user_email">Email</label>
+            <input id="user_email" type="email" placeholder="Email">
+        </p>
+        <p>
+            <label for="user_password">Пароль</label>
+            <input id="user_password" type="password" placeholder="Пароль">
+        </p>
+        <p>
+            <label for="user_type">Тип системы</label>
+            <select id="user_tpe" name="type_os">
+                <option selected disabled>Выберите тип системы</option>
+                <option value="Windows">Windows</option>
+                <option value="Linux">Linux</option>
+                <option value="Mac os">Mac os</option>
+            </select>
+        </p>
+        <p>
+            <label for="user_wishes">Пожеланий клиента</label>
+            <textarea name="" id="user_wishes" cols="30" rows="10" placeholder="Пожеланий клиента"></textarea>
+        </p>
+        <p>  
+            <button type="submit">  
+                Отправить форму
+            </button>
+            <button type="reset">
+                Сбросить форму
+            </button>
+        </p>
+    </form>
+</body>
+</html>
